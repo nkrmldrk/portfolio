@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYEL</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="info">
+            <a href="#"><p>Free shipping on orders over $150 over Canada</p></a>
+            <ion-icon id="btn-hide" name="arrow-up-outline"></ion-icon>
+        </div>
+        <nav>
+            <div class="left-menu">
+                <ion-icon id="menubtn" name="menu-outline"></ion-icon>    
+                <div class="menu">
+                    <div class="menuelement">
+                        <a href="#">shop by</a>
+                    </div>
+                    <div class="menuelement">
+                        <a href="#">collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-logo">
+                <img src="img/main-logo.png" alt="">
+            </div>
+            <div class="right-menu">
+                <ion-icon id="personbtn" name="person-outline"></ion-icon>
+                <div class="menu">
+                    <div class="menuelement">
+                        <a href="#">about us</a>
+                    </div>
+                    <div class="menuelement popup-open">
+                        <a href="#">login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="popup-fade">
+            <div class="popup">
+                <div class="popup-close">
+                    <ion-icon class="popup-close-btn" name="close-outline"></ion-icon>
+                </div>
+                <form action="" id="login-form">
+                    <h6>Email</h6>
+                    <input type="email" name="" id="log" placeholder="myel@gmail.com">
+                    <span id="error-email"></span>
+                    <h6>Password</h6>
+                    <input type="password" id="pass" placeholder="·······">
+                    <span id="error-pass"></span>
+                    <button type="submit" id="btn-submit">LOG IN</button>
+                </form>
+                <a href="#" id="reg-link">reg on</a>
+            </div>
+        </div>
+        <div class="left-menu-adaptive">
+            <div class="menuelement">
+                <a href="#">shop by</a>
+            </div>
+            <div class="menuelement">
+                <a href="#">collection</a>
+            </div>
+        </div>
+        <div class="right-menu-adaptive">
+            <div class="menuelement">
+                <a href="#">about us</a>
+            </div>
+            <div class="menuelement popup-open">
+                <a href="#">login</a>
+            </div>
+        </div>
+        <div class="header-content">
+            <a href="#">
+                <div class="head-content head-content1">
+                    <p>A MODERN SIGNET RING</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="head-content head-content2"></div>
+            </a>    
+            <a href="#">
+                <div class="head-content head-content3">
+                    <p>STACK THE NECKLACES</p>
+                </div>
+            </a>  
+        </div>
+    </header>
+
+    <main>
+        <div class="descr-myel">
+            <div class="descr-myel-content">
+                <div id="descr-text">
+                    <h1>Responsible high-end jewelry <br> made in Montreal. MYEL <br> creations are designed to <br> stand the test of time.</h1>
+                    <p>Spontaneous, delicate, audacious, our jewels distinguish themselves with their elegance.</p>
+                </div>
+                <div id="descr-link">
+                    <a href="#">Shop MYEL</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-carousel">
+            <div class="shop-title-btn">
+                <div class="shop-title">
+                    <p>SHOP NEW ARRIVALS</p>
+                </div>
+                <div class="shop-btn">
+                    <img id="btn-left" src="img/arrow-left.png" alt="">
+                    <img id="btn-right" src="img/arrow-right.png" alt="">
+                </div>
+            </div>
+            <div id="js-carousel" class="owl-carousel">
+                <a href="#">
+                    <div class="carousel-item carousel-item-1">
+                        <h1>Stein Necklace in Silver with Aquamarine</h1>
+                        <img src="img/shop-left.png" alt="">
+                        <p>$310 CAD</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="carousel-item carousel-item-2">
+                        <img src="img/shop-center.png" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="carousel-item carousel-item-3">
+                        <h1>Origines Pendant in Yellow Gold with <br> Ethical Birthstone</h1>
+                        <img src="img/shop-right.png" alt="">
+                        <p>$310 CAD</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="carousel-item carousel-item-2">
+                        <img src="img/shop-center.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <div class="footer-list">
+                        <h1>Shop By</h1>
+                        <ul>
+                            <a href=""><li>Necklaces</li></a>
+                            <a href=""><li>Earrings</li></a>
+                            <a href=""><li>Best Sellers</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
+                        <h1></h1>
+                        <ul>
+                            <a href=""><li>Rings</li></a>
+                            <a href=""><li>Bracelets</li></a>
+                            <a href=""><li>New Arrivals</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <div class="footer-list">
+                        <h1>Support</h1>
+                        <ul>
+                            <a href=""><li>Product care</li></a>
+                            <a href=""><li>Returns, shipping <br> & pricing</li></a>
+                            <a href=""><li>FAQ</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
+                        <h1>MYEL</h1>
+                        <ul>
+                            <a href=""><li>About</li></a>
+                            <a href=""><li>Journal</li></a>
+                            <a href=""><li>Ethical stones</li></a>
+                            <a href=""><li>Terms & privacy</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
+                        <h1>Visit</h1>
+                        <ul>
+                            <a href=""><li>The Store</li></a>
+                            <a href=""><li>Contact</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>All rights reserved. © 2021 - MYEL</p>
+                <p>Web Credits</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
